@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Concepts</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+      <header>
+        <h1>Historical evolution </h1>
+      
+        <nav>
+            <u1 class="Main-Menu">
+                <li><a href="index.htm1">Home</a></a></li>
+                <li><a href="Topic 1.html">Topic 1</a></li>
+                <li><a href="Topic 2.html">Topic 2</a></li>
+                <li><a href="key-Concept.html">Key- Concept 1</a></li>
+                <li><a href="references.html">References</a></li>
+                <li><a href="about.html">About</a></li>
+            </u1>
+        </nav>
+            </u1>
+        </header>
+
+        <main>
+            <section>
+                <h2>The Hypertext Transfer Protocol (HTTP): Function and Purpose</h2>
+                <p>HTTP started in the early 1990s as a simple way to share web pages on Tim Berners-Lee’s World Wide Web. The first version, HTTP/0.9, only used one-line requests and plain HTML pages. HTTP/1.0 added headers and content types, and HTTP/1.1 improved things even more with features like keeping connections open, caching, and better handling of web hosts.
+
+                  In 2015, HTTP/2 came out. It kept the same basic ideas but changed how data is sent, using binary framing instead of text. This made it faster and allowed multiple requests to happen at once.
+
+                 The newest version, HTTP/3, released in 2022, runs on QUIC, which is based on UDP instead of TCP. QUIC makes connections faster, helps pages load quicker, and works better when switching between Wi-Fi and mobile networks.</p>
+                
+                 <h2>How HTTP Works</h2>
+                 <p>HTTP is a stateless protocol, meaning every request is handled independently. A typical exchange involves:</p>
+                    <img src="images/client-server-diagram.png" alt="Diagram showing how clients connect to a server over the Internet" width="400">
+                    <ul>
+                        <li>A client sending a request with a method, path, and headers.</li>
+                        <li>A server responding with a status code, headers, and content.</li>
+                        <li>Headers carrying information like cache settings, authentication, and cookies.</li>
+                    </ul>
+                    <p>For security, HTTPS wraps HTTP in TLS encryption, protecting data integrity and privacy. Modern web use is HTTPS by default since browsers flag unsecured sites.</p>
+                    
+                    <h2>Security and Privacy</h2>
+                 <p>Encryption and authentication are key. TLS ensures secure communication, while HTTP/3 integrates encryption into its transport layer (QUIC). Additionally, new protocols like DNS over HTTPS (DoH) and encrypted client hints enhance privacy but also raise debates over data control and visibility.</p>
+                
+                 
+                 <h2>Market, Ecosystem, and Adoption</h2>
+                 <u1>
+                    <li>Browsers: Chrome, Firefox, Safari, and Edge all support HTTP/2 and HTTP/3.</li>
+                   
+                     <li>Servers: Apache and Nginx lead historically; newer options include Caddy, Envoy, and<br>CDNs like Cloudflare and Akamai</li>
+                     <li>Organizations: The IETF and W3C manage standards and evolution.</li>
+
+                     <p>By mid-2025, most high-traffic sites use HTTP/2 or HTTP/3, driven by CDN and browser support.</p>
+
+
+                     <h2>Developer and Operator Impact</h2>
+                     <p>Developers usually don’t need to rewrite apps to adopt newer HTTP versions—just update server or CDN settings. Operators, however, must manage changes in network behavior, firewalls, and monitoring due to UDP-based QUIC in HTTP/3.</p>
+
+                     <h2>Conclusion</h2>
+                     <p> HTTP’s function is simple yet powerful: enabling universal communication between clients and servers. Its design allows it to evolve with security and performance demands, keeping it central to how the web operates today.</p>
+
+                 </u1>
+
+            </section>
+        </main>
+
+        <footer>
+            <p>My IT 3203 project
+                <a href="https://ksuweb.github.io/IT3203/"target="_blank">GitHub Repository</a>
+            </p>
+        </footer>
+        </body>
+        </html>
